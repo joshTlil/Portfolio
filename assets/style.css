@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3,1fr) ;
+  grid-template-rows: 12.2% 12.2% 12.2% 12.2% 12.2% 12.2% 12.2% 14.5%;
+  gap: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 25px;
+  
+
+}
+
+.container div {
+  padding: 10px;
+  border: 8px solid lightblue;
+
+
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  
+}
+
+.sub-header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+}
+
+.about-me {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.work {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.pic1 {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-image: url("gj.jpg");
+  
+
+}
+.pic2 {
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-image: url("cal.jpg");
+
+}
+
+.calculator {
+  grid-row-start: 6;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 2;
+} 
+
+
+
+
+.pic3 {
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background-image: url("js.jpg");
+}
+
+.javascript {
+  grid-row-start: 6;
+  grid-row-end: 6;
+  grid-column-start: 3;
+  grid-column-end: 3;
+
+}
+
+.pic4 {
+  grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-image: url("led.jpg");
+}
+
+.led {
+  grid-row-start: 7;
+  grid-row-end: 7;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.pic5 {
+  grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background-image: url("pass.jpg");
+}
+
+.password {
+  grid-row-start: 7;
+  grid-row-end: 7;
+  grid-column-start: 3;
+  grid-column-end: 3;
+
+
+}
+
+.contact {
+  grid-row-start: 8;
+  grid-row-end: 9;
+  grid-column-start: 1;
+  grid-column-end: 4 ;
+}
+
+.pic1:hover {
+  filter: brightness(30%);
+  
+}
+
+
+.span {
+  color: darkgreen;
+  display:inline-block;
+}
+
+.navbar {
+  display: inline;
+}
+
+.ul {
+  text-align: right;
+}
+
+
+.surf{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 5;
+
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    background: pink;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    background: rgb(98, 12, 116);
+  }
+  
+
+  
+}
+
+
+@media screen and (max-width: 576px) {
+  .container {
+    background: rgb(249, 255, 192);
+  }
+  
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+
+  
+  
+  
+ 
+
+
+
+
